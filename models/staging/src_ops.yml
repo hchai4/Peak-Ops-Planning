@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: ops_raw
+    database: peak-ops-planning
+    schema: raw
+    tables:
+      - name: wms_shipments
+      - name: adp_timesheets
+      - name: ups_trailers
+      - name: supply_costs
+      - name: planning_targets

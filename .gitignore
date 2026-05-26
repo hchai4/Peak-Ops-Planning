@@ -1,0 +1,7 @@
+dbt_packages/
+dbt_internal_packages/
+logs/
+target/
+.env
+.DS_Store
+peak-ops-planning-*.json

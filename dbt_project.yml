@@ -1,0 +1,17 @@
+name: Peak_Ops_Planning
+
+profile: Peak_Ops_Planning
+
+seed-paths: ["seeds"]
+model-paths: ["models"]
+macro-paths: ["macros"]
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  Peak_Ops_Planning:
+    +static_analysis: strict
+    # Materialize staging models as views
+    staging:
+      +materialized: view
