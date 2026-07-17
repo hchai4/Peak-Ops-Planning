@@ -14,7 +14,6 @@ cleaned as (
            hours_worked,
            hourly_rate
     from source
-
 )
 
 
