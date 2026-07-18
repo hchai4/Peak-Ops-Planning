@@ -5,5 +5,3 @@ packages:
     version: 2.10.1
   - git: "https://github.com/dbt-labs/dbt-codegen.git"
     revision: main
-  - package: gitlabhq/snowflake_spend
-    version: 1.4.0
